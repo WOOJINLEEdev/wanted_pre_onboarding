@@ -6,7 +6,7 @@ import { IoMdSearch } from "react-icons/io";
 const DATAS = [
   {
     key: 0,
-    value: "All SYMBOLS",
+    value: "ALL SYMBOLS",
   },
   {
     key: 1,
@@ -99,6 +99,7 @@ const Dropdown = () => {
             value={searchInput}
             onChange={handleSearchInputChange}
             ref={inputRef}
+            placeholder="Search..."
           />
           <IoMdSearch />
         </>
