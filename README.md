@@ -1,4 +1,4 @@
-# 원티드 프리 온보딩 지원 과제
+# 원티드 프리 온보딩 프론트엔드 사전 과제
 
 - React, Typescript, styled-components, react-icons 사용
 

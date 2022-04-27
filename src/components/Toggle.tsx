@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Toggle = () => {
   return (
     <ToggleWrapper>
-      <h1 className="section_title">Toggle</h1>
+      <h2 className="section_title">Toggle</h2>
       <label htmlFor="toggleBtn" className="toggle_btn">
         <input type="checkbox" id="toggleBtn" />
         <span className="toggle_text">
