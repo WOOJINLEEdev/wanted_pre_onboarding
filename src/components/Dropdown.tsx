@@ -67,7 +67,9 @@ const Dropdown = () => {
     setSearchInput(e.target.value);
 
     const dataValue: string[] = DATAS.map((data) => data.value.toLowerCase());
-    const result = dataValue.filter((data) => data.includes(e.target.value));
+    const result = dataValue.filter((data) =>
+      data.includes(e.target.value.toLowerCase())
+    );
 
     setSearchResult(result);
   };
